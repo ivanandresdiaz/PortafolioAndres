@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ModalDiv = styled.div`
   position: fixed;
+  z-index: 1001;
   width:100%;
   height:100%;
   top: 0;

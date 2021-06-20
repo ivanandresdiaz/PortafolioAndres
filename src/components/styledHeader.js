@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const ButtonDownLoadCurriculum = styled.button`
+  justify-self: flex-end;
+  margin-right: 10vw;
   background-color: #FF8906;
   color: white;
   width: 129px;
@@ -35,10 +37,11 @@ export const IconHamburgerContainer = styled.div`
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
   justify-content: center;
   align-items: center;
-  height:52px;
-  width:52px;
+  height:55px;
+  width:55px;
   border-radius:50%;
   position: fixed;
+  z-index:1000;
   top: 17px;
   left: 5%;
 `;

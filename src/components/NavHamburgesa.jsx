@@ -48,17 +48,21 @@ const NavHamburgesa = () => {
   const fixed = () => (
     <>
       <IconHamburgerContainer>
-        <MdReorder color='#FF8906' size='40px' />
+        <MdReorder onClick={handleModal} color='#FF8906' size='40px' />
       </IconHamburgerContainer>
       <Modal isOpen={showModal}>
-        <div>
-          <CloseModal onClick={handleModal} />
-          <H1White>Andres Diaz</H1White>
-        </div>
-        <a href='#'>Hola</a>
-        <a href='#'> Proyectos </a>
-        <a href='#'> Testimonios</a>
-        <a href='#'>Contacto</a>
+        <DivModalLayoutNav>
+          <DivModalLogo>
+            <div onClick={handleModal}>
+              <CloseModal />
+            </div>
+            <H1White>Andres Diaz</H1White>
+          </DivModalLogo>
+          <AItemNav href='#'>Hola</AItemNav>
+          <AItemNav href='#'> Proyectos </AItemNav>
+          <AItemNav href='#'> Testimonios</AItemNav>
+          <AItemNav href='#'>Contacto</AItemNav>
+        </DivModalLayoutNav>
       </Modal>
     </>
   );
