@@ -5,13 +5,20 @@ const useThemeContext = () => {
   const matches = useMediaQuery('(min-width: 769px)');
   const mobile = !matches;
   const [darkMode, setDarkMode] = useState(true);
-  const toogleDarkMode = () => {
-    setDarkMode(!darkMode);
+  const [showModal, setShowModal] = useState(false);
+
+  const toogleModal = (payload) => {
+    setShowModal(!payload);
+  };
+  const toogleDarkMode = (payload) => {
+    setDarkMode(!payload);
   };
   return {
-    darkMode,
     toogleDarkMode,
+    toogleModal,
     mobile,
+    darkMode,
+    showModal,
   };
 };
 

@@ -3,14 +3,13 @@ import ReactDOM from 'react-dom';
 import { ModalDiv } from './styledModal';
 
 const Modal = (props) => {
-  const { isOpen, children } = props;
+  const { isOpen } = props;
   if (isOpen) {
     return ReactDOM.createPortal(
       <ModalDiv className='Modal'>
-        {children}
+        {props.children}
       </ModalDiv>,
       document.getElementById('modal'),
-
     );
   }
   return null;

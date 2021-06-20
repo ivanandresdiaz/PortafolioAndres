@@ -27,6 +27,7 @@ export const HeaderStyled = styled.header`
 `;
 export const H1White = styled.h1`
   color: white;
+  padding-left: 10px;
 `;
 export const IconHamburgerContainer = styled.div`
   display: flex;
@@ -40,4 +41,25 @@ export const IconHamburgerContainer = styled.div`
   position: fixed;
   top: 17px;
   left: 5%;
+`;
+export const DivModalLogo = styled.div`
+  display: flex;
+  align-items: center;
+`;
+export const DivModalLayoutNav = styled.div`
+display: grid;
+align-items: center;
+padding-left: 5%;
+height:100vh;
+width:100%;
+grid-template-rows: 15% 10% 10% 10% 10%;
+`;
+export const AItemNav = styled.a`
+text-decoration: none;
+color: #A7A9BE;
+font-size:2.5rem;
+&:hover {
+    color:  #FF8906; 
+  }
+
 `;

@@ -26,9 +26,10 @@ export const ImgLogo = styled.img`
 `;
 export const ContainerLinksNav = styled.div`
   width:100%;
+  display: grid;
   justify-items: center;
   align-items: center;
-  display: grid;
+  
   grid-template-columns: repeat(6, 1fr) ;
 `;
 

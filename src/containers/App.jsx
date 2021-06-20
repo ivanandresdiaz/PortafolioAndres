@@ -24,7 +24,6 @@ const App = () => {
         <Contacto />
         <Footer />
       </ThemeContext.Provider>
-
     </>
   );
 };
