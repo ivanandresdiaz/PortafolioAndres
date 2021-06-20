@@ -3,7 +3,7 @@ import ThemeContext from '../context/ThemeContext';
 import Header from '../components/Header';
 import Hero from '../components/Hero/Hero';
 import Proyectos from '../components/Proyectos/Proyectos';
-import Servicios from '../components/Servicios';
+import Servicios from '../components/Servicios/Servicios';
 import Testimonios from '../components/Testimonios';
 import Carousel from '../components/Carousel';
 import Contacto from '../components/Contacto';
