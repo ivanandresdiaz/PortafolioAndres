@@ -8,15 +8,11 @@ export const DivLayoutHeroDesktop = styled.div`
   padding: 6rem 0;
 `;
 export const ImgHero = styled.img`
-filter: brightness(105%) grayscale(90%) ;
 object-fit: cover;
 object-position: center;
 max-width:400px;
 max-height:400px;
 width: 100%;
-&:hover {
-    filter: brightness(100%) grayscale(0%);
-  }
 `;
 export const H2White = styled.h2`
 font-size: 6rem;

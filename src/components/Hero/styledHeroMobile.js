@@ -1,15 +1,10 @@
 import styled from 'styled-components';
 
 export const ImgHero = styled.img`
-
-  filter: brightness(105%) grayscale(90%) ;
   width:80vw;
   height:80vw;
   object-fit: cover;
   object-position: center;
-  &:hover {
-    filter: brightness(100%) grayscale(0%)  // <Thing> when hovered
-  }
 `;
 export const DivLayoutMobileHero = styled.div`
   display:flex;

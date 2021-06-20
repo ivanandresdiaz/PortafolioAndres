@@ -1,8 +1,8 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 
-export const BodyHero = styled.div`
-  width: 100%;
-  background-color:#0F0E17;
-  
+export const DivProyectos = styled.div`
+background-color:white;
+width: 90%;
+margin: 0 auto;
 `;
