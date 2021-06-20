@@ -7,6 +7,9 @@ export const ImgHero = styled.img`
   height:80vw;
   object-fit: cover;
   object-position: center;
+  &:hover {
+    filter: brightness(100%) grayscale(0%)  // <Thing> when hovered
+  }
 `;
 export const DivLayoutMobileHero = styled.div`
   display:flex;

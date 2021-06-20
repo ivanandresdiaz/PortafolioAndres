@@ -14,6 +14,9 @@ object-position: center;
 max-width:400px;
 max-height:400px;
 width: 100%;
+&:hover {
+    filter: brightness(100%) grayscale(0%);
+  }
 `;
 export const H2White = styled.h2`
 font-size: 6rem;
