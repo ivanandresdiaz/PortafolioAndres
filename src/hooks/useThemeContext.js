@@ -5,19 +5,14 @@ const useThemeContext = () => {
   const matches = useMediaQuery('(min-width: 769px)');
   const mobile = !matches;
   const [darkMode, setDarkMode] = useState(true);
-  const [modal, setModal] = useState(false);
-  const toogleModal = () => {
-    setModal(!modal);
-  };
   const toogleDarkMode = () => {
     setDarkMode(!darkMode);
   };
-  return (
+  return {
     darkMode,
     toogleDarkMode,
-    toogleModal,
-    mobile
-  );
+    mobile,
+  };
 };
 
 export default useThemeContext;

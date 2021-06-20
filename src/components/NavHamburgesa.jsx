@@ -5,11 +5,11 @@ import ThemeContext from '../context/ThemeContext';
 
 const NavHamburgesa = () => {
   const { toogleModal } = useContext(ThemeContext);
+  console.log(toogleModal);
   const handleModal = () => {
     toogleModal();
-  }
+  };
   const [showFixed, setShowFixed] = useState(false);
-  
   useEffect(() => {
     const onScroll = () => {
       const newShowFixed = window.scrollY > 90;

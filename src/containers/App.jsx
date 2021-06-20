@@ -9,10 +9,8 @@ import Carousel from '../components/Carousel';
 import Contacto from '../components/Contacto';
 import Footer from '../components/Footer';
 import useThemeContext from '../hooks/useThemeContext';
-import Modal from './Modal';
 
 const App = () => {
-  
   const ThemeContextState = useThemeContext();
   return (
     <>
@@ -25,7 +23,6 @@ const App = () => {
         <Carousel />
         <Contacto />
         <Footer />
-        <Modal isOpen={modal} />
       </ThemeContext.Provider>
 
     </>
