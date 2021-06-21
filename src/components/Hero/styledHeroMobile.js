@@ -25,3 +25,12 @@ export const DivTitleHero = styled.div`
   align-self: flex-start;
   padding:1.5rem 2.5rem 1rem 10vw;
 `;
+export const SpanStack = styled.span`
+color:#F25F4C;
+`;
+export const SpanReact = styled.span`
+color:#38E974;
+`;
+export const SpanResponsive = styled.span`
+color: #FF8906;
+`;

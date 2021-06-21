@@ -9,6 +9,7 @@ export const DivServiciosMobile = styled.div`
   width: 90%;
   padding: 4rem 0;
   margin: 2.5rem auto;
+  margin-bottom:0;
 `;
 export const DivCardServicioMobile = styled.div`
 margin: 3rem auto;

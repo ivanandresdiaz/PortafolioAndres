@@ -31,3 +31,12 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 `;
+export const SpanStack = styled.span`
+color:#F25F4C;
+`;
+export const SpanReact = styled.span`
+color:#38E974;
+`;
+export const SpanResponsive = styled.span`
+color: #FF8906;
+`;

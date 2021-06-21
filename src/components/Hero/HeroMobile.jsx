@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import imgHero from '../../assets/hero.jpg';
-import { ImgHero, DivLayoutMobileHero, H2White, PWhite, DivTitleHero } from './styledHeroMobile';
+import { ImgHero, DivLayoutMobileHero, H2White, PWhite, DivTitleHero, SpanResponsive, SpanReact, SpanStack } from './styledHeroMobile';
 
 const HeroMobile = () => {
   return (
@@ -12,8 +12,7 @@ const HeroMobile = () => {
         <H2White>Soy Andres Diaz</H2White>
       </DivTitleHero>
       <PWhite>
-        Developer que le encanta implementar diseños que
-        inspiran y atraen a las personas.
+      Portafolio <SpanResponsive>Responsive</SpanResponsive>  desarrollado con <SpanReact>React</SpanReact> y <SpanStack>styled components</SpanStack>
       </PWhite>
       <MdKeyboardArrowDown color='#FF8906' size='6rem' />
     </DivLayoutMobileHero>
