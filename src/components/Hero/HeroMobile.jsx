@@ -12,7 +12,7 @@ const HeroMobile = () => {
         <H2White>Soy Andres Diaz</H2White>
       </DivTitleHero>
       <PWhite>
-      Portafolio <SpanResponsive>Responsive</SpanResponsive>  desarrollado con <SpanReact>React</SpanReact> y <SpanStack>styled components</SpanStack>
+      Portafolio <SpanResponsive>Responsive </SpanResponsive>  desarrollado con <SpanReact>React</SpanReact> y <SpanStack>styled components</SpanStack>
       </PWhite>
       <MdKeyboardArrowDown color='#FF8906' size='6rem' />
     </DivLayoutMobileHero>
